@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Step Counter Pedometer Free Calorie Counter</string>
+
+    <!-- Goal / Steps -->
+    <string name="goal">Goal</string>
+    <string name="goal_hint">Set your daily goal</string>
+    <string name="Step_goal_setting">Goal</string>
+    <string name="Step_goal_setting_details">For Setting Goal</string>
+    <string name="Step_goal_setting_title">Enter your Goal of steps</string>
+
+    <string name="steps">Steps</string>
+    <string name="steps_unit">Steps</string>
+    <string name="label_steps">Steps :</string>
+    <string name="steps_per_minute">steps per minute</string>
+
+    <!-- Body / Weight / Height -->
+    <string name="weight_placeholder">Weight: 0 kg</string>
+    <string name="label_weight">Weight :</string>
+    <string name="height_placeholder">Height: 0 ft</string>
+    <string name="label_height">Height :</string>
+
+    <!-- Calories / BMI -->
+    <string name="calories">Calories</string>
+    <string name="calories_burned">kcal</string>
+    <string name="bmi">BMI</string>
+    <string name="label_bmi_result">BMI Result:</string>
+
+    <!-- History / Target / GPS -->
+    <string name="history">History</string>
+    <string name="target">Target</string>
+    <string name="gps">GPS</string>
+
+    <!-- Play / Counter -->
+    <string name="play_counter">Play Counter</string>
+    <string name="play_stop">Play/Stop Button</string>
+    <string name="stop_counter">Stop Counter</string>
+
+    <!-- Buttons / UI -->
+    <string name="btn_set_goal">SET GOAL</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_calculate_bmi">CALCULATE BMI</string>
+    <string name="txt_title">Step Counter</string>
+
+    <!-- Profile -->
+    <string name="profile_image">Profile Image</string>
+    <string name="name_placeholder">Your Name</string>
+
+    <!-- Other descriptive strings -->
+    <string name="goal_dialog_title">Enter your goal of steps</string>
+    <string name="goal_setting_title">Enter your Goal</string>
+    <string name="goal_setting_details">For setting daily goal</string>
+
+    <!-- Chart Activity Strings -->
+    <string name="chart_for_steps">Chart for Steps</string>
+    <string name="chart_for_calories">Chart for Calories</string>
+
+    <!-- BMI Calculator Strings -->
+    <string name="bmi_calculator_title">BMI Calculator</string>
+    <string name="hint_enter_here">Enter here…</string>
+    <string name="unit_kg">(in kg)</string>
+    <string name="unit_ft">(in ft)</string>
+
+    <!-- Tap to Start Activity Strings -->
+    <string name="title_image_desc">App Title Image</string>
+    <string name="btn_start">START</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- Set Dialog Goal Strings -->
+    <string name="tell_distance_setting">Distance</string>
+
+    <!-- Widget Layout Strings -->
+    <string name="maintain_speed">Speed</string>
+    <string name="maintain_pace">Pace</string>
+    <string name="kilometers">km</string>
+    <string name="miles">mi</string>
+
+    <!-- Speed units -->
+    <string name="kilometers_per_hour">km/h</string>
+    <string name="miles_per_hour">mph</string>
+
+    <!-- Calories -->
+    <string name="calories_unit">Cal</string>
+
+    <!-- Placeholders used in MainActivity.java -->
+    <string name="weight_text">Weight: %1$.1f kg</string>
+    <string name="height_text">Height: %1$.1f ft</string>
+    <string name="step_text">%1$d</string>
+    <string name="pace_text">%1$d pace</string>
+    <string name="distance_text">%1$.2f %2$s</string>
+    <string name="speed_text">%1$.1f %2$s</string>
+    <string name="calories_text">%1$d %2$s</string>
+    <string name="label_weight_value">Weight: %1$.1f kg</string>
+    <string name="label_height_value">Height: %1$.1f ft</string>
+    <string name="steps_per_minute_value">%1$d steps per minute</string>
+
+    <!-- Calories -->
+    <string name="calories_value">%1$d kcal</string>
+    <string name="steps_value">%1$d Steps</string>
+    <string name="exercise_type_running">Running</string>
+    <string name="exercise_type_walking">Walking</string>
+
+    <string name="maintain_nothing">Nothing</string>
+    <string name="run_in_background">Run in background</string>
+    <string name="keep_screen_on">Keep screen on</string>
+    <string name="wake_up">Wake up</string>
+
+    <string name="extra_high">Extra High</string>
+    <string name="very_high">Very High</string>
+    <string name="high">High</string>
+    <string name="higher">Higher</string>
+    <string name="medium">Medium</string>
+    <string name="lower">Lower</string>
+    <string name="low">Low</string>
+    <string name="very_low">Very Low</string>
+    <string name="extra_low">Extra Low</string>
+
+    <string name="interval_15_seconds">15 seconds</string>
+    <string name="interval_30_seconds">30 seconds</string>
+    <string name="interval_1_minute">1 minute</string>
+    <string name="interval_2_minutes">2 minutes</string>
+    <string name="interval_5_minutes">5 minutes</string>
+
+    <!-- ADD THESE MISSING STRINGS -->
+    <string name="interval_10_minutes">10 minutes</string>
+    <string name="units_metric">Metric</string>
+    <string name="units_imperial">Imperial</string>
+    <string name="google_maps_api">AIzaSyD_bpKsgOEFS0npI7GiwrLJNmdoXAxunQs</string>
+
+    <!-- Missing strings added from build errors -->
+    <string name="tell_speed_setting">Tell Speed</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_stop">Stop</string>
+    <string name="calories_chart">Calories Chart</string>
+
+    <string name="steps_settings_title">Step Settings</string>
+    <string name="sensitivity_setting">Sensitivity</string>
+    <string name="sensitivity_setting_details">Adjust how sensitive the step counter is.</string>
+    <string name="sensitivity_setting_title">Sensitivity Setting</string>
+
+    <string name="operation_level_setting">Operation Level</string>
+    <string name="operation_level_setting_details">Set the background operation level.</string>
+    <string name="operation_level_setting_title">Operation Level Setting</string>
+
+    <string name="units_setting">Units</string>
+    <string name="units_setting_details">Choose between metric and imperial units.</string>
+    <string name="units_setting_title">Units Setting</string>
+
+    <string name="step_length_setting">Step Length</string>
+    <string name="step_length_setting_details">Average step length in centimeters.</string>
+    <string name="step_length_setting_title">Step Length Setting</string>
+
+    <string name="body_weight_setting">Body Weight</string>
+    <string name="body_weight_setting_details">Enter your weight for calorie calculation.</string>
+    <string name="body_weight_setting_title">Body Weight Setting</string>
+
+
+    <string name="tell_steps_setting">Steps</string>
+    <string name="tell_steps_setting_details">Enable or disable step counting feedback</string>
+
+    <!-- Pace Settings -->
+    <string name="tell_pace_setting">Pace</string>
+    <string name="tell_pace_setting_details">Enable voice feedback for pace</string>
+
+    <!-- Distance Settings -->
+    <string name="tell_distance_setting_details">Enable voice feedback for distance covered</string>
+
+    <!-- Speed Settings -->
+    <string name="tell_speed_setting_details">Enable voice feedback for current speed</string>
+
+    <!-- Calories Settings -->
+    <string name="tell_calories_setting">Calories</string>
+    <string name="tell_calories_setting_details">Enable voice feedback for calories burned</string>
+
+    <!-- Faster/Slower Settings -->
+    <string name="tell_fasterslower_setting">Faster/Slower</string>
+    <string name="tell_fasterslower_setting_details">Enable voice feedback for faster or slower pace alerts</string>
+
+    <!-- General Voice Settings -->
+    <string name="tell_what">Voice Feedback</string>
+    <string name="voice_setting">Voice</string>
+    <string name="voice_setting_details">Choose whether to enable voice feedback during your workout</string>
+    <string name="voice_settings_title">Voice Settings</string>
+
+    <!-- Speaking Interval Settings -->
+    <string name="speaking_interval_setting">Speaking Interval</string>
+    <string name="speaking_interval_setting_details">Set how often the voice feedback speaks (time interval)</string>
+
+    <!-- Maintain Settings -->
+    <string name="maintain_setting">Maintain</string>
+    <string name="maintain_setting_title">Maintain Setting</string>
+    <string name="maintain_setting_details">Choose what parameter to maintain during your exercise (speed, pace, etc.)</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="started">Started</string>
+    <string name="stopped">Stopped</string>
+    <string name="much_faster">Much faster</string>
+    <string name="much_slower">Much slower</string>
+    <string name="faster">Faster</string>
+    <string name="slower">Slower</string>
+    <string name="little_faster">Little faster</string>
+    <string name="little_slower">Little slower</string>
+    <string name="rest_it_str">Rest it</string>
+    <string name="rest_step_this_day">You have reached your daily step limit.</string>
+    <string name="ok_str">OK</string>
+    <string name="cancel_str">Cancel</string>
+    <string name="kilograms">kg</string>
+    <string name="pounds">lbs</string>
+    <string name="centimeters">cm</string>
+    <string name="inches">in</string>
+
+
+
+    <!-- Exercise Type Settings -->
+    <string name="exercise_type_setting">Exercise Type</string>
+    <string name="exercise_type_setting_title">Select Exercise Type</string>
+    <string name="exercise_type_setting_details">Choose whether you’re walking, running, or jogging</string>
+</resources>

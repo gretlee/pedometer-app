@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:layout="@layout/categaory"
+        android:title="@string/steps_settings_title">
+        <ListPreference
+            android:entries="@array/sensitivity_preference"
+            android:title="@string/sensitivity_setting"
+            android:key="sensitivity"
+            android:summary="@string/sensitivity_setting_details"
+            android:defaultValue="30"
+            android:dialogTitle="@string/sensitivity_setting_title"
+            android:entryValues="@array/sensitivity_preference_values" />
+        <ListPreference
+            android:entries="@array/operation_level_preference"
+            android:title="@string/operation_level_setting"
+            android:key="operation_level"
+            android:summary="@string/operation_level_setting_details"
+            android:defaultValue="30"
+            android:dialogTitle="@string/operation_level_setting_title"
+            android:entryValues="@array/operation_level_preference_values" />
+        <ListPreference
+            android:entries="@array/units_preference"
+            android:title="@string/units_setting"
+            android:key="units"
+            android:summary="@string/units_setting_details"
+            android:defaultValue="imperial"
+            android:dialogTitle="@string/units_setting_title"
+            android:entryValues="@array/units_preference_values" />
+        <com.demo.example.preferences.StepLengthPreference
+            android:title="@string/step_length_setting"
+            android:key="step_length"
+            android:summary="@string/step_length_setting_details"
+            android:defaultValue="20"
+            android:dialogTitle="@string/step_length_setting_title" />
+        <com.demo.example.preferences.BodyWeightPreference
+            android:title="@string/body_weight_setting"
+            android:key="body_weight"
+            android:summary="@string/body_weight_setting_details"
+            android:defaultValue="50"
+            android:dialogTitle="@string/body_weight_setting_title" />
+        <com.demo.example.preferences.GoalPrefrences
+            android:title="@string/Step_goal_setting"
+            android:key="Goal"
+            android:summary="@string/Step_goal_setting_details"
+            android:defaultValue="1000"
+            android:dialogTitle="@string/Step_goal_setting_title" />
+        <ListPreference
+            android:entries="@array/exercise_type_preference"
+            android:title="@string/exercise_type_setting"
+            android:key="exercise_type"
+            android:summary="@string/exercise_type_setting_details"
+            android:defaultValue="running"
+            android:dialogTitle="@string/exercise_type_setting_title"
+            android:entryValues="@array/exercise_type_preference_values" />
+        <ListPreference
+            android:entries="@array/maintain_preference"
+            android:title="@string/maintain_setting"
+            android:key="maintain"
+            android:summary="@string/maintain_setting_details"
+            android:defaultValue="none"
+            android:dialogTitle="@string/maintain_setting_title"
+            android:entryValues="@array/maintain_preference_values" />
+    </PreferenceCategory>
+    <Preference
+        android:title="Reset"
+        android:key="reseting"
+        android:summary="Reset all values to Zero" />
+    <PreferenceCategory android:title="@string/voice_settings_title">
+        <CheckBoxPreference
+            android:title="@string/voice_setting"
+            android:key="speak"
+            android:summary="@string/voice_setting_details"
+            android:defaultValue="false" />
+        <ListPreference
+            android:entries="@array/speaking_interval_preference"
+            android:title="@string/speaking_interval_setting"
+            android:key="speaking_interval"
+            android:summary="@string/speaking_interval_setting_details"
+            android:dependency="speak"
+            android:defaultValue="1"
+            android:entryValues="@array/speaking_interval_preference_values" />
+        <PreferenceScreen
+            android:title="@string/tell_what"
+            android:key="tell_what"
+            android:dependency="speak">
+            <PreferenceCategory android:title="@string/tell_what">
+                <CheckBoxPreference
+                    android:title="@string/tell_steps_setting"
+                    android:key="tell_steps"
+                    android:summary="@string/tell_steps_setting_details"
+                    android:defaultValue="false" />
+                <CheckBoxPreference
+                    android:title="@string/tell_pace_setting"
+                    android:key="tell_pace"
+                    android:summary="@string/tell_pace_setting_details"
+                    android:defaultValue="false" />
+                <CheckBoxPreference
+                    android:title="@string/tell_distance_setting"
+                    android:key="tell_distance"
+                    android:summary="@string/tell_distance_setting_details"
+                    android:defaultValue="false" />
+                <CheckBoxPreference
+                    android:title="@string/tell_speed_setting"
+                    android:key="tell_speed"
+                    android:summary="@string/tell_speed_setting_details"
+                    android:defaultValue="false" />
+                <CheckBoxPreference
+                    android:title="@string/tell_calories_setting"
+                    android:key="tell_calories"
+                    android:summary="@string/tell_calories_setting_details"
+                    android:defaultValue="false" />
+                <CheckBoxPreference
+                    android:title="@string/tell_fasterslower_setting"
+                    android:key="tell_fasterslower"
+                    android:summary="@string/tell_fasterslower_setting_details"
+                    android:defaultValue="false" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
+
